@@ -13,8 +13,8 @@ function handleSubmit(event) {
   }
 
   const formData = {
-    email: email.value,
-    password: password.value,
+    email: email.value.trim(),
+    password: password.value.trim(),
   };
 
   console.log(formData);
